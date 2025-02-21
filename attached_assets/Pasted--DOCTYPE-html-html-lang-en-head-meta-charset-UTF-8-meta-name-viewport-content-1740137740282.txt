@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenkinss Food</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Navigation -->
+    <nav class="bg-gray-800 text-white p-4 sticky top-0 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Zenkinss Food</h1>
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="hover:text-gray-300">Home</a></li>
+                <li><a href="#about" class="hover:text-gray-300">About Us</a></li>
+                <li><a href="#products" class="hover:text-gray-300">Products</a></li>
+                <li><a href="#export" class="hover:text-gray-300">Export</a></li>
+                <li><a href="#franchise" class="hover:text-gray-300">Franchise</a></li>
+                <li><a href="#services" class="hover:text-gray-300">Other Services</a></li>
+                <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mx-auto p-6">
+        <!-- Need to Export Section -->
+        <section id="export" class="my-12">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Need to Export</h2>
+            <p class="text-gray-700 mb-4">Zenkinss Is Bridging The Gap By Providing A Full Range Of Vegetarian And Non-Vegetarian Menus</p>
+            <p class="text-gray-600">Food processing sector is one of the largest sectors in India in terms of production, growth, consumption, and export. The Indian food processing industry is primarily export-oriented.</p>
+            <ul class="list-disc list-inside text-gray-700 mt-4">
+                <li>India's geographical situation gives it the unique advantage of connectivity to Europe, the Middle East, Japan, Singapore, Thailand, Malaysia, and Korea.</li>
+                <li>One such example indicating India's location advantage is the value of trade in agriculture and processed food between India and the Gulf region, which is to the tune of $41.55 billion in the fiscal year 2018-2019.</li>
+                <li>Also due to the huge Indian diaspora in the Gulf region, there is a massive need for Indian cuisine and Zenkinss is bridging this gap by providing a full range of vegetarian and non-vegetarian menus.</li>
+                <li>We have a dedicated team that overlooks Export management and we have been successful thus far to cover most of the UAE region and wish to expand to other countries.</li>
+            </ul>
+        </section>
+
+        <!-- Food Quality Section -->
+        <section id="quality" class="my-12">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Food Quality</h2>
+            <h3 class="text-xl font-bold text-gray-700 mb-2">Canned Sterilization Technique</h3>
+            <p class="text-gray-600">Our canned sterilization technique is an extremely hygienic, temperature and pressure controlled, which helps in retaining the freshness of our food products. Cans give us the advantage of wide reach efficient logistics and giving the consumer a taste and feel of India anywhere in the world. Our value system is our guiding force in focussing on the quality of products and processes to manufacture them.</p>
+        </section>
+
+        <!-- Process Section -->
+        <section id="process" class="my-12">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Process</h2>
+            <p class="text-gray-700 mb-4">How We Efficiently Deliver The Food According To Need Of Customer</p>
+            <p class="text-gray-600">Canned Products for Export: Vegetarian Products, Non-Vegetarian Products</p>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="my-12">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Products</h2>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold text-gray-700 mb-2">Gravies (Ready to Heat 'n Eat)</h3>
+                <p class="text-sm text-gray-600 mb-4">Shelf Life: 24 Months, Stored at Ambient Temperature, No Preservatives, 100% Natural, Vacuum Packed Canned Products</p>
+                <ul class="list-disc list-inside text-gray-700">
+                    <li><strong>Sarson Ka Saag</strong> - Mustard Leaves Curried: Pulp from mustard and spinach leaves cooked with garlic, ginger, green chilies. A perfect North Indian winter dish, delicious with ghee or butter tempering. <span class="text-sm text-gray-600">(Storage: Canned)</span></li>
+                    <li><strong>Rajma Curried</strong> - Red Kidney Beans Curried: Selected variety simmered overnight with condiments and green spices. A homemade treat with boiled rice and warqi paranthas. <span class="text-sm text-gray-600">(Storage: Canned)</span></li>
+                    <li><strong>Pindi Channa</strong> - Chick Peas Curried: White chick peas cooked over a low flame with special grounded spices. A great Punjabi treat. <span class="text-sm text-gray-600">(Storage: Canned)</span></li>
+                    <li><strong>Lobia Curried</strong> - Curried Soya Beans: Black-eyed beans with tomatoes and onions, enhanced with Indian spices. <span class="text-sm text-gray-600">(Storage: Canned)</span></li>
+                    <li><strong>Dal Makhani</strong> - Curried Black Lentils with Butter: Whole black lentils and red kidney beans with butter/ghee, best with warqi parantha. <span class="text-sm text-gray-600">(Storage: Canned)</span></li>
+                    <li><strong>Alu Methi</strong> - Potato Fenugreek Curried: Potatoes simmered with fenugreek leaves curry. <span class="text-sm text-gray-600">(Storage: Canned)</span></li>
+                    <li><strong>Palak Alu</strong> - Potato in Spinach Sauce: Spinach and cottage cheese with spices. <span class="text-sm text-gray-600">(Storage: Canned)</span></li>
+                    <li><strong>Kari Pakora</strong> - Buttermilk Soup with Dumplings: Buttermilk, gram flour, and spices with kofta balls, perfect with boiled rice. <span class="text-sm text-gray-600">(Storage: Canned)</span></li>
+                    <li><strong>Mixed Vegetable Curried</strong> - Carrots, beans, cauliflower, green peas in tomato-onion gravy. <span class="text-sm text-gray-600">(Storage: Canned)</span></li>
+                    <li><strong>Veg. Manchurian</strong> - Indo-Chinese capsicum and onion gravy with kofta balls. <span class="text-sm text-gray-600">(Storage: Canned)</span></li>
+                    <li><strong>Mutter Paneer</strong> - Peas and Cottage Cheese Curried: Tomato-based sauce with garam masala, served with rice or bread. <span class="text-sm text-gray-600">(Storage: Canned)</span></li>
+                    <li><strong>Palak Paneer</strong> - Cottage Cheese in Spinach Sauce: Spinach and cottage cheese with spices. <span class="text-sm text-gray-600">(Storage: Canned)</span></li>
+                    <li><strong>Kadai Paneer</strong> - Cottage Cheese and Capsicum in Tomato Sauce: Fried cottage cheese with tomatoes and capsicum. <span class="text-sm text-gray-600">(Storage: Canned)</span></li>
+                    <li><strong>Shahi Paneer</strong> - Cottage Cheese in Tomato Sauce with Butter: Rich tomato gravy dish. <span class="text-sm text-gray-600">(Storage: Canned)</span></li>
+                    <li><strong>Veg. Biryani</strong> - Rice with Mixed Vegetables: Aromatic blend cooked over a low flame. <span class="text-sm text-gray-600">(Storage: Canned)</span></li>
+                    <li><strong>Moong Dal Halwa</strong> - Yellow Lentils Dessert: Roasted moong lentils with ghee, sugar, and dry fruits. <span class="text-sm text-gray-600">(Storage: Canned)</span></li>
+                    <li><strong>Phirni</strong> - Rice Pudding: Milk reduced with dry fruits, sugar, and saffron, served chilled. <span class="text-sm text-gray-600">(Storage: Canned)</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact/Query Section -->
+        <section id="contact" class="my-12">
+            <h2 class="text-3xl font-semibold text-gray-800 mb-4">Do You Have Any Query?</h2>
+            <form class="bg-white p-6 rounded-lg shadow-md">
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="name">Your Name</label>
+                    <input type="text" id="name" class="w-full p-2 border border-gray-300 rounded" placeholder="Enter your name">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="subject">Your Subject</label>
+                    <input type="text" id="subject" class="w-full p-2 border border-gray-300 rounded" placeholder="Enter subject">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="query">Your Query</label>
+                    <textarea id="query" class="w-full p-2 border border-gray-300 rounded" rows="4" placeholder="Write your query"></textarea>
+                </div>
+                <button type="submit" class="bg-gray-800 text-white p-2 rounded hover:bg-gray-700">Send</button>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center text-gray-600 mt-10">
+            <p><strong>Address:</strong> Zenkinss Food Products, H J EPIP, Phase I Jharmajri, Baddi, Distt. Solan, H.P. 174103</p>
+            <p><strong>Contact:</strong> Landline: 01795-271127 | Email: zenkinns@gmail.com</p>
+            <p>Copyright © All Rights Reserved 2019. Designed by Fresco Web Services.</p>
+        </footer>
+    </div>
+</body>
+</html>
