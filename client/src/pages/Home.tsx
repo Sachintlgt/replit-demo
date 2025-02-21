@@ -81,16 +81,22 @@ export default function Home() {
         <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {[
             {
-              title: "Premium Snacks",
+              title: "Sarson Ka Saag",
+              description: "Traditional mustard leaves curried with spinach, perfect North Indian winter dish.",
               image: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601",
+              category: "Export Products",
             },
             {
-              title: "Organic Foods",
+              title: "Zenkinss Special Veg. Wrap",
+              description: "Cottage cheese simmered with butter and spicy vegetables in a flaky wrap.",
               image: "https://images.unsplash.com/photo-1498837167922-ddd27525d352",
+              category: "Franchise Products",
             },
             {
-              title: "Fresh Produce",
+              title: "Dal Makhani",
+              description: "Whole black lentils and red kidney beans with butter/ghee, a classic comfort food.",
               image: "https://images.unsplash.com/photo-1485963631004-f2f00b1d6606",
+              category: "Export & Franchise",
             },
           ].map((product) => (
             <div
@@ -104,11 +110,20 @@ export default function Home() {
                   className="h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-105"
                 />
               </div>
-              <h3 className="mt-4 text-lg font-semibold text-gray-900">
-                {product.title}
-              </h3>
+              <div className="mt-4">
+                <p className="text-sm text-primary font-medium">{product.category}</p>
+                <h3 className="mt-1 text-lg font-semibold text-gray-900">
+                  {product.title}
+                </h3>
+                <p className="mt-1 text-sm text-gray-600">{product.description}</p>
+              </div>
             </div>
           ))}
+        </div>
+        <div className="mt-10 text-center">
+          <Button asChild size="lg">
+            <Link href="/products">View All Products</Link>
+          </Button>
         </div>
       </section>
 
