@@ -1,6 +1,6 @@
-# Food Products Company Website
+# Zenkinns Food Products Website
 
-A modern, responsive website for a food products company built with React and TypeScript. The website showcases the company's products, services, and franchise opportunities.
+A modern, responsive website for Zenkinns food products company built with React and TypeScript. The website showcases the company's products, services, and franchise opportunities.
 
 ## Features
 
@@ -28,14 +28,53 @@ A modern, responsive website for a food products company built with React and Ty
   - PostCSS
   - TypeScript
 
-## Getting Started
+## Deployment Guide
 
-### Prerequisites
+### Deploying on Replit
 
-- Node.js 20.x or higher
-- npm (comes with Node.js)
+1. Your website is automatically deployed when you run the project on Replit
+2. Click the "Run" button to start the server
+3. Access your site via the "Webview" tab or your Replit URL
 
-### Installation
+### Connecting a Custom Domain
+
+1. **In Replit**:
+   - Go to your project's "Tools" tab
+   - Select "Hosting"
+   - Click "Connect Custom Domain"
+   - Add your domain name
+
+2. **In Your Domain Provider**:
+   - Add a CNAME record:
+     - Name: @ or www (depending on your preference)
+     - Value: Your Replit URL (without https://)
+   - Wait for DNS propagation (can take up to 48 hours)
+
+3. **SSL Setup**:
+   - SSL is automatically handled by Replit
+   - No additional configuration needed
+
+### Alternative Free Hosting Options
+
+You can also deploy this website on other free hosting platforms:
+
+1. **Vercel**:
+   ```bash
+   npm install -g vercel
+   vercel login
+   vercel
+   ```
+
+2. **Netlify**:
+   - Connect your repository
+   - Set build command: `npm run build`
+   - Set publish directory: `dist/public`
+
+3. **GitHub Pages**:
+   - Enable GitHub Pages in repository settings
+   - Set build command in GitHub Actions
+
+## Local Development
 
 1. Clone the repository
 2. Install dependencies:
@@ -57,10 +96,6 @@ npm run build
 ```
 
 The built files will be in the `dist` directory.
-
-## Deployment
-
-This project is configured for deployment on Replit. The production build will be automatically served when you run the project on Replit.
 
 ## Project Structure
 

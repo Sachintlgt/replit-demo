@@ -6,7 +6,7 @@ export default function About() {
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              About FoodCo
+              About Zenkinns
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               We're dedicated to bringing quality food products to tables around the world.
@@ -23,7 +23,7 @@ export default function About() {
               Our Story
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Founded in 1995, FoodCo has grown from a small family business to a
+              Founded in 1995, Zenkinns has grown from a small family business to a
               leading producer of quality food products. Our commitment to excellence
               and innovation has helped us expand our reach while maintaining the
               highest standards of quality.
