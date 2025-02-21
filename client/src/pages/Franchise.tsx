@@ -15,88 +15,109 @@ export default function Franchise() {
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Export Opportunities
+              Franchise Opportunities
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Zenkinns is bridging the gap by providing a full range of vegetarian and non-vegetarian menus for the global market.
+              Join our successful network of franchise partners and build your own
+              business with our proven model.
             </p>
             <div className="mt-10">
-              <Button size="lg">Contact Us</Button>
+              <Button size="lg">Request Information</Button>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Market Advantages */}
+      {/* Benefits */}
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900">
-          Strategic Advantages
+          Why Choose Our Franchise
         </h2>
         <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {[
             {
-              title: "Geographical Advantage",
+              title: "Proven Business Model",
               description:
-                "India's strategic location provides unique connectivity to Europe, the Middle East, Japan, Singapore, Thailand, Malaysia, and Korea.",
+                "Benefit from our years of experience and established systems in the food industry",
             },
             {
-              title: "Growing Market",
+              title: "Comprehensive Training",
               description:
-                "The value of trade in agriculture and processed food between India and the Gulf region reached $41.55 billion in 2018-2019.",
+                "Get thorough training in food preparation, management, and operations with ongoing support",
             },
             {
-              title: "Market Demand",
+              title: "Quality Products",
               description:
-                "Large Indian diaspora in the Gulf region creates massive demand for Indian cuisine, which Zenkinns fulfills with our diverse menu.",
+                "Access to our complete range of high-quality vegetarian and non-vegetarian products",
             },
             {
-              title: "Dedicated Export Team",
+              title: "Marketing Support",
               description:
-                "Our dedicated team oversees Export management, successfully covering the UAE region with plans for expansion to other countries.",
+                "Professional marketing materials and campaigns to help grow your business",
             },
             {
-              title: "Quality Assurance",
+              title: "Established Brand",
               description:
-                "Our canned sterilization technique ensures hygienic processing with temperature and pressure control, maintaining product freshness.",
+                "Leverage our respected brand name and market presence in the food industry",
             },
             {
-              title: "Global Reach",
+              title: "Territory Protection",
               description:
-                "Canned products enable efficient logistics and deliver authentic Indian taste anywhere in the world.",
+                "Exclusive territory rights to build and grow your business",
             },
-          ].map((advantage) => (
-            <Card key={advantage.title}>
+          ].map((benefit) => (
+            <Card key={benefit.title}>
               <CardHeader>
-                <CardTitle>{advantage.title}</CardTitle>
-                <CardDescription>{advantage.description}</CardDescription>
+                <CardTitle>{benefit.title}</CardTitle>
+                <CardDescription>{benefit.description}</CardDescription>
               </CardHeader>
             </Card>
           ))}
         </div>
       </div>
 
-      {/* Quality Process */}
+      {/* Product Categories */}
       <div className="bg-gray-50">
         <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">
-              Our Quality Process
+              Franchise Product Categories
             </h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              Our canned sterilization technique is an extremely hygienic, temperature and pressure controlled process that helps in retaining the freshness of our food products. Our value system guides us in focusing on the quality of products and manufacturing processes.
-            </p>
-            <div className="mt-10">
+            <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2">
               <Card>
                 <CardHeader>
-                  <CardTitle>Food Processing Excellence</CardTitle>
+                  <CardTitle>Ready-to-Eat Products</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="list-disc pl-4 space-y-2">
-                    <li>Temperature and pressure controlled sterilization</li>
-                    <li>Hygienic processing environment</li>
-                    <li>Freshness retention technology</li>
-                    <li>Efficient logistics system</li>
-                    <li>Quality-focused value system</li>
+                    <li>Rolls & Wraps
+                      <ul className="list-disc pl-8 mt-2">
+                        <li>Zenkinss Special Veg Wrap</li>
+                        <li>Mix Veg Wrap</li>
+                        <li>Paneer Kathi Roll</li>
+                      </ul>
+                    </li>
+                    <li>Gravies
+                      <ul className="list-disc pl-8 mt-2">
+                        <li>Dal Makhani</li>
+                        <li>Shahi Paneer</li>
+                        <li>Mixed Vegetable Curried</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <CardTitle>Business Support</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <ul className="list-disc pl-4 space-y-2">
+                    <li>Initial setup assistance</li>
+                    <li>Staff training programs</li>
+                    <li>Quality control systems</li>
+                    <li>Inventory management</li>
+                    <li>Marketing and promotions</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -105,37 +126,37 @@ export default function Franchise() {
         </div>
       </div>
 
-      {/* Export Categories */}
+      {/* Investment Information */}
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900">
-          Export Categories
+          Investment Overview
         </h2>
         <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2">
           <Card>
             <CardHeader>
-              <CardTitle>Vegetarian Products</CardTitle>
+              <CardTitle>Initial Investment</CardTitle>
             </CardHeader>
             <CardContent>
               <ul className="list-disc pl-4 space-y-2">
-                <li>Traditional Indian curries</li>
-                <li>Legume-based dishes</li>
-                <li>Paneer specialties</li>
-                <li>Rice preparations</li>
-                <li>Indian desserts</li>
+                <li>Franchise fee</li>
+                <li>Equipment and inventory</li>
+                <li>Store build-out</li>
+                <li>Initial marketing</li>
+                <li>Working capital</li>
               </ul>
             </CardContent>
           </Card>
           <Card>
             <CardHeader>
-              <CardTitle>Product Features</CardTitle>
+              <CardTitle>Ongoing Support</CardTitle>
             </CardHeader>
             <CardContent>
               <ul className="list-disc pl-4 space-y-2">
-                <li>24-month shelf life</li>
-                <li>Ambient temperature storage</li>
-                <li>No preservatives</li>
-                <li>100% natural ingredients</li>
-                <li>Vacuum packed canning</li>
+                <li>Operational guidance</li>
+                <li>Marketing assistance</li>
+                <li>Product development</li>
+                <li>Technical support</li>
+                <li>Training programs</li>
               </ul>
             </CardContent>
           </Card>
