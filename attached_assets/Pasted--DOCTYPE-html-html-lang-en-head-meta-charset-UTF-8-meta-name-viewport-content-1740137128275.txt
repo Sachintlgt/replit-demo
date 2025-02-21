@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenkinss Food Products</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <div class="container mx-auto p-6">
+        <!-- Header -->
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-bold text-gray-800">Zenkinss Food</h1>
+            <p class="text-lg text-gray-600">Our Products</p>
+        </header>
+
+        <!-- Products for Export Section -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold text-gray-700 mb-4">Products for Export</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Vegetarian Products -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Vegetarian Products</h3>
+                    <p class="text-sm text-gray-600 mb-4">Gravies (Ready to Heat 'n Eat, Shelf Life: 24 Months, Stored at Ambient Temperature, No Preservatives, 100% Natural, Vacuum Packed Canned Products)</p>
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li><strong>Sarson Ka Saag</strong> - Mustard Leaves Curried: Pulp from mustard and spinach leaves cooked with garlic, ginger, green chilies. Perfect North Indian winter dish with ghee or butter tempering.</li>
+                        <li><strong>Rajma Curried</strong> - Red Kidney Beans Curried: Simmered overnight with condiments and green spices. A homemade treat with boiled rice and warqi paranthas.</li>
+                        <li><strong>Pindi Channa</strong> - Chick Peas Curried: White chick peas cooked over a low flame with special grounded spices. A great Punjabi treat.</li>
+                        <li><strong>Lobia Curried</strong> - Curried Soya Beans: Black-eyed beans with tomatoes and onions, enhanced with Indian spices.</li>
+                        <li><strong>Dal Makhani</strong> - Whole black lentils and red kidney beans with butter/ghee, best with warqi parantha.</li>
+                        <li><strong>Alu Methi</strong> - Potato Fenugreek Curried: Potatoes simmered with fenugreek leaves curry.</li>
+                        <li><strong>Palak Alu</strong> - Potato in Spinach Sauce: Spinach and cottage cheese with spices.</li>
+                        <li><strong>Kari Pakora</strong> - Buttermilk Soup with Dumplings: Buttermilk, gram flour, and spices with kofta balls, perfect with boiled rice.</li>
+                        <li><strong>Mixed Vegetable Curried</strong> - Carrots, beans, cauliflower, green peas in tomato-onion gravy.</li>
+                        <li><strong>Veg. Manchurian</strong> - Indo-Chinese capsicum and onion gravy with kofta balls.</li>
+                        <li><strong>Mutter Paneer</strong> - Peas and Cottage Cheese Curried: Tomato-based sauce with garam masala.</li>
+                        <li><strong>Palak Paneer</strong> - Cottage Cheese in Spinach Sauce: Spinach and cottage cheese with spices.</li>
+                        <li><strong>Kadai Paneer</strong> - Cottage Cheese and Capsicum in Tomato Sauce: Fried cottage cheese with tomatoes and onions.</li>
+                        <li><strong>Shahi Paneer</strong> - Cottage Cheese in Tomato Sauce with Butter: Rich tomato gravy dish.</li>
+                        <li><strong>Mushroom, Peas Curried</strong> - Creamy onion, tomato, and cashew sauce.</li>
+                        <li><strong>Palak, Corns Curried</strong> - Corns in spinach sauce with cottage cheese.</li>
+                        <li><strong>Veg. Biryani</strong> - Rice with mixed vegetables, aromatic and flavorful.</li>
+                        <li><strong>Moong Dal Halwa</strong> - Yellow Lentils Dessert: Roasted moong lentils with ghee, sugar, and dry fruits.</li>
+                        <li><strong>Phirni</strong> - Rice Pudding: Milk reduced with dry fruits, sugar, and saffron, served chilled.</li>
+                    </ul>
+                    <p class="text-sm text-gray-600 mt-2">Storage: Canned</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products for Franchise Section -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold text-gray-700 mb-4">Products for Franchise</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Vegetarian Products -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Vegetarian Products</h3>
+                    <h4 class="text-lg font-semibold text-gray-700 mb-2">Rolls & Wraps</h4>
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li><strong>Zenkinss Special Veg. Wrap</strong> - Cottage cheese simmered with butter and spicy vegetables.</li>
+                        <li><strong>Mix Veg Wrap</strong> - Mixed vegetables in tomato-onion gravy.</li>
+                        <li><strong>Paneer Kathi Roll</strong> - Flaky roll with fresh cottage cheese and spicy vegetables.</li>
+                        <li><strong>Chilli Paneer Wrap</strong> - Marinated fried cottage cheese with onions and capsicum.</li>
+                    </ul>
+                    <p class="text-sm text-gray-600 mt-2">Storage: Frozen</p>
+
+                    <h4 class="text-lg font-semibold text-gray-700 mt-4 mb-2">Gravies (Ready to Heat 'n Eat)</h4>
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li><strong>Dal Makhani</strong> - Black lentils and red kidney beans with butter/ghee.</li>
+                        <li><strong>Rajma Curried</strong> - Red kidney beans with condiments and green spices.</li>
+                        <li><strong>Pindi Channa</strong> - Chick peas with special grounded spices.</li>
+                        <li><strong>Kari Pakora</strong> - Buttermilk soup with kofta balls.</li>
+                        <li><strong>Shahi Paneer</strong> - Cottage cheese in rich tomato gravy.</li>
+                        <li><strong>Mixed Vegetable Curried</strong> - Mixed vegetables in tomato-onion gravy.</li>
+                        <li><strong>Veg Manchurian</strong> - Indo-Chinese capsicum and onion gravy.</li>
+                        <li><strong>Kadai Paneer</strong> - Fried cottage cheese with tomatoes and capsicum.</li>
+                        <li><strong>Palak Paneer</strong> - Spinach and cottage cheese with spices.</li>
+                    </ul>
+                    <p class="text-sm text-gray-600 mt-2">Storage: Frozen</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center text-gray-600 mt-10">
+            <p><strong>Address:</strong> Zenkinss Food Products, H J EPIP, Phase I Jharmajri, Baddi, Distt. Solan, H.P. 174103</p>
+            <p><strong>Contact:</strong> Landline: 01795-271127 | Email: zenkinns@gmail.com</p>
+            <p>Copyright &copy; All Rights Reserved 2019. Designed by Fresco Web Services.</p>
+        </footer>
+    </div>
+</body>
+</html>

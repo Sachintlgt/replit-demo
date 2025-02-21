@@ -1,41 +1,68 @@
 import { Card, CardContent } from "@/components/ui/card";
 
-const products = [
+const exportProducts = [
   {
-    name: "Premium Snacks",
-    description: "High-quality snacks made with natural ingredients",
-    image: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601",
-    category: "Snacks",
+    name: "Sarson Ka Saag",
+    description: "Mustard Leaves Curried: Pulp from mustard and spinach leaves cooked with garlic, ginger, green chilies. Perfect North Indian winter dish with ghee or butter tempering.",
+    category: "Vegetarian - Export",
+    storage: "Canned",
   },
   {
-    name: "Organic Grains",
-    description: "Certified organic grains sourced from trusted farmers",
-    image: "https://images.unsplash.com/photo-1498837167922-ddd27525d352",
-    category: "Grains",
+    name: "Rajma Curried",
+    description: "Red Kidney Beans Curried: Simmered overnight with condiments and green spices. A homemade treat with boiled rice and warqi paranthas.",
+    category: "Vegetarian - Export",
+    storage: "Canned",
   },
   {
-    name: "Fresh Produce",
-    description: "Farm-fresh vegetables and fruits",
-    image: "https://images.unsplash.com/photo-1485963631004-f2f00b1d6606",
-    category: "Produce",
+    name: "Pindi Channa",
+    description: "Chick Peas Curried: White chick peas cooked over a low flame with special grounded spices. A great Punjabi treat.",
+    category: "Vegetarian - Export",
+    storage: "Canned",
   },
   {
-    name: "Artisan Breads",
-    description: "Freshly baked artisanal breads",
-    image: "https://images.unsplash.com/photo-1464454709131-ffd692591ee5",
-    category: "Bakery",
+    name: "Dal Makhani",
+    description: "Whole black lentils and red kidney beans with butter/ghee, best with warqi parantha.",
+    category: "Vegetarian - Export",
+    storage: "Canned",
   },
   {
-    name: "Premium Dairy",
-    description: "High-quality dairy products",
-    image: "https://images.unsplash.com/photo-1464306208223-e0b4495a5553",
-    category: "Dairy",
+    name: "Palak Paneer",
+    description: "Cottage Cheese in Spinach Sauce: Spinach and cottage cheese with spices.",
+    category: "Vegetarian - Export",
+    storage: "Canned",
+  },
+];
+
+const franchiseProducts = [
+  {
+    name: "Zenkinss Special Veg. Wrap",
+    description: "Cottage cheese simmered with butter and spicy vegetables.",
+    category: "Rolls & Wraps",
+    storage: "Frozen",
   },
   {
-    name: "Specialty Foods",
-    description: "Unique and specialty food items",
-    image: "https://images.unsplash.com/photo-1447078806655-40579c2520d6",
-    category: "Specialty",
+    name: "Mix Veg Wrap",
+    description: "Mixed vegetables in tomato-onion gravy.",
+    category: "Rolls & Wraps",
+    storage: "Frozen",
+  },
+  {
+    name: "Paneer Kathi Roll",
+    description: "Flaky roll with fresh cottage cheese and spicy vegetables.",
+    category: "Rolls & Wraps",
+    storage: "Frozen",
+  },
+  {
+    name: "Dal Makhani",
+    description: "Black lentils and red kidney beans with butter/ghee.",
+    category: "Gravies",
+    storage: "Frozen",
+  },
+  {
+    name: "Shahi Paneer",
+    description: "Cottage cheese in rich tomato gravy.",
+    category: "Gravies",
+    storage: "Frozen",
   },
 ];
 
@@ -51,26 +78,52 @@ export default function Products() {
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
               Discover our range of high-quality food products made with the finest
-              ingredients.
+              ingredients, available for export and franchise.
             </p>
           </div>
         </div>
       </div>
 
-      {/* Product Grid */}
+      {/* Export Products */}
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 mb-6">
+          Products for Export
+        </h2>
+        <p className="text-lg text-gray-600 mb-10">
+          Ready to Heat 'n Eat, Shelf Life: 24 Months, Stored at Ambient Temperature, No Preservatives, 100% Natural, Vacuum Packed Canned Products
+        </p>
         <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
-          {products.map((product) => (
+          {exportProducts.map((product) => (
             <Card key={product.name} className="group overflow-hidden">
-              <CardContent className="p-0">
-                <div className="aspect-square w-full overflow-hidden">
-                  <img
-                    src={product.image}
-                    alt={product.name}
-                    className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-                  />
+              <CardContent className="p-6">
+                <div className="text-sm text-primary font-medium">
+                  {product.category}
                 </div>
-                <div className="p-6">
+                <h3 className="mt-2 text-lg font-semibold text-gray-900">
+                  {product.name}
+                </h3>
+                <p className="mt-2 text-sm text-gray-600">
+                  {product.description}
+                </p>
+                <div className="mt-4 text-sm text-gray-500">
+                  Storage: {product.storage}
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      </div>
+
+      {/* Franchise Products */}
+      <div className="bg-gray-50">
+        <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 mb-6">
+            Products for Franchise
+          </h2>
+          <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
+            {franchiseProducts.map((product) => (
+              <Card key={product.name} className="group overflow-hidden">
+                <CardContent className="p-6">
                   <div className="text-sm text-primary font-medium">
                     {product.category}
                   </div>
@@ -80,10 +133,13 @@ export default function Products() {
                   <p className="mt-2 text-sm text-gray-600">
                     {product.description}
                   </p>
-                </div>
-              </CardContent>
-            </Card>
-          ))}
+                  <div className="mt-4 text-sm text-gray-500">
+                    Storage: {product.storage}
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </div>
       </div>
     </div>
