@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Zenkinns</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-green-700 text-white py-6 text-center text-2xl font-bold">About Zenkinns</header>
+    
+    <main class="max-w-4xl mx-auto p-6 bg-white shadow-lg mt-6 rounded-lg">
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold text-green-700">Discover Our Story</h2>
+            <p class="mt-2">ZEN means ‘A state of well-being’ and KINNS means ‘People’. We at Zenkinns are in the business of spreading happiness with every bite among people.</p>
+        </section>
+        
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold text-green-700">Our Values</h2>
+            <p class="mt-2">Zenkinns believes in stringent in-house manufacturing processes, right from choosing the best of ingredients to hygienic handling, packaging, and delivery of the final product.</p>
+        </section>
+        
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold text-green-700">Quality</h2>
+            <p class="mt-2">Nutrition forms the core of our pride in choosing the freshest of ingredients, ensuring freshness through our manufacturing process to provide our consumers the best.</p>
+        </section>
+        
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold text-green-700">Facts About Canning and Processed Food</h2>
+            <p class="mt-2 font-semibold">Canned Foods Are Not Loaded with Preservatives</p>
+            <p class="mt-2">The process of canning makes the use of preservatives unnecessary. Canned food is heated to a high enough temperature and pressure that kills bacteria. The airtight seal keeps bacteria out and freshness in.</p>
+        </section>
+    </main>
+    
+    <footer class="bg-gray-900 text-white text-center py-6 mt-6">
+        <p>Contact Us: <a href="mailto:zenkinns@gmail.com" class="underline">zenkinns@gmail.com</a> | 01795-271127</p>
+        <p>Address: 1-J EPIP, Phase 1, Jharmajri, Baddi, Distt. Solan, H.P. 174103</p>
+        <p class="mt-2">&copy; 2019 Zenkinns Food Products. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
