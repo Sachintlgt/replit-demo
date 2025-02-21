@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Zenkinns</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-green-700 text-white py-6 text-center text-2xl font-bold">About Zenkinns</header>
+    
+    <main class="max-w-4xl mx-auto p-6 bg-white shadow-lg mt-6 rounded-lg">
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold text-green-700">Meaning of Zenkinns</h2>
+            <p class="mt-2">ZEN means ‘A state of well-being’ and KINNS means ‘People’. We at Zenkinns are in the business of spreading happiness with every bite among people.</p>
+        </section>
+        
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold text-green-700">Overview</h2>
+            <p class="mt-2">We are a Mega Manufacturing Food facility located amidst the scenic foothills of the Shivalik Mountain Ranges in the Industrial town of Baddi, Himachal Pradesh.</p>
+            <p class="mt-2">Our core competency lies in manufacturing vegetarian and non-vegetarian food products in state-of-the-art packaging formats – cans/tins, retort pouches, and microwaveable trays.</p>
+        </section>
+
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold text-green-700">Our Vision</h2>
+            <p class="mt-2">To CREATE A FOOD CONSCIOUS SOCIETY – one that is aware of the SOURCE STORY of their food and knows the REAL NUTRITION value of its contents.</p>
+        </section>
+        
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold text-green-700">Our Mission</h2>
+            <p class="mt-2">To put a SMILE ON EVERY FACE that tries our product. For this, we have been INCESSANTLY INNOVATING AND INVENTING our food offerings through different ingredients, concoctions, techniques, and cuisines.</p>
+        </section>
+
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold text-green-700">Founder & Management</h2>
+            <h3 class="text-lg font-semibold mt-4">Rakesh Bhutani - Founder</h3>
+            <p class="mt-2">Rakesh Bhutani carries forward his family’s legacy in the food manufacturing business. With deep-rooted passion, he expanded into the ready-to-eat (RTE) market.</p>
+            
+            <h3 class="text-lg font-semibold mt-4">Hitesh Bhutani - Export Management</h3>
+            <p class="mt-2">Hitesh Bhutani, a graduate in Export Management, oversees Zenkinns’ export operations and managerial aspects, ensuring quality and commitment.</p>
+        </section>
+        
+        <section class="mb-6">
+            <h2 class="text-xl font-semibold text-green-700">Founder's Message</h2>
+            <p class="mt-2 italic">“There are no shortcuts in life, especially when it comes to creating something extraordinary. Our mission at Zenkinns is to spread happiness through quality food.”</p>
+        </section>
+    </main>
+    
+    <footer class="bg-gray-900 text-white text-center py-6 mt-6">
+        <p>Contact Us: <a href="mailto:zenkinns@gmail.com" class="underline">zenkinns@gmail.com</a> | 01795-271127</p>
+        <p>Address: 1-J EPIP, Phase 1, Jharmajri, Baddi, Distt. Solan, H.P. 174103</p>
+        <p class="mt-2">&copy; 2019 Zenkinns Food Products. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
