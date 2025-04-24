@@ -132,14 +132,33 @@ export default function Home() {
       {/* Food Safety Section */}
       <section className="bg-primary/5">
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <div className="mx-auto max-w-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center mb-12">
               Facts About Our Food Processing
             </h2>
-            <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">
-              Our canned foods are not loaded with preservatives. The process of canning makes the use of preservatives unnecessary. The food is heated to a high enough temperature and pressure that kills bacteria, while the airtight seal keeps bacteria out and freshness in.
-            </p>
-            <div className="mt-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="space-y-6">
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Quality Assurance</h3>
+                  <p className="text-gray-600">Our products undergo rigorous quality control processes. We maintain HACCP certification and follow strict GMP guidelines in our manufacturing facility.</p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Food Safety</h3>
+                  <p className="text-gray-600">Our canning process eliminates harmful bacteria through precise temperature and pressure control, ensuring product safety without preservatives.</p>
+                </div>
+              </div>
+              <div className="space-y-6">
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Packaging Innovation</h3>
+                  <p className="text-gray-600">We use state-of-the-art retort pouches and microwaveable trays alongside traditional cans, providing convenience without compromising quality.</p>
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Shelf Life</h3>
+                  <p className="text-gray-600">Our advanced packaging and processing techniques naturally preserve food for up to 18 months while maintaining nutritional value and taste.</p>
+                </div>
+              </div>
+            </div>
+            <div className="mt-12 text-center">
               <Button asChild size="lg">
                 <Link href="/products">Explore Our Products</Link>
               </Button>
