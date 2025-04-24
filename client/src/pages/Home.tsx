@@ -6,22 +6,31 @@ export default function Home() {
     <div className="flex flex-col gap-16">
       {/* Hero Section */}
       <div className="relative">
-        <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
-          <div className="max-w-2xl">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Discover Our Story
-              <span className="text-primary"> at Zenkinns</span>
-            </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
-              ZEN means 'A state of well-being' and KINNS means 'People'. We at Zenkinns are in the business of spreading happiness with every bite among people.
-            </p>
-            <div className="mt-10 flex gap-x-6">
-              <Button asChild size="lg">
-                <Link href="/products">View Products</Link>
-              </Button>
-              <Button asChild variant="outline" size="lg">
-                <Link href="/about">Learn More</Link>
-              </Button>
+        <div className="relative h-[600px] w-full overflow-hidden">
+          <img
+            src="/attached_assets/Banner.jpeg"
+            alt="Zenkinns Banner"
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/40">
+            <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
+              <div className="max-w-2xl">
+                <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+                  Discover Our Story
+                  <span className="text-primary"> at Zenkinns</span>
+                </h1>
+                <p className="mt-6 text-lg leading-8 text-gray-200">
+                  ZEN means 'A state of well-being' and KINNS means 'People'. We at Zenkinns are in the business of spreading happiness with every bite among people.
+                </p>
+                <div className="mt-10 flex gap-x-6">
+                  <Button asChild size="lg">
+                    <Link href="/products">View Products</Link>
+                  </Button>
+                  <Button asChild variant="outline" size="lg" className="bg-white/10 text-white hover:bg-white/20">
+                    <Link href="/about">Learn More</Link>
+                  </Button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
